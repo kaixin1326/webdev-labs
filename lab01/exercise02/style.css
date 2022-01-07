@@ -12,6 +12,7 @@ Add some style blocks below this line to style the card.
 .wrap{
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
     /*  
     padding: 10px;
     margin: 10px;
