@@ -32,14 +32,11 @@ Add some style blocks below this line to style the card.
     margin-left: 10px;
     */
 }
-.card{
-    display: inline-block;
-}
+
 .card-container{
     box-sizing: border-box;
     border: dotted 1px #CCC; 
     width: 30vh;
-    /* padding: 10px; */
     margin: 10px;
 }
 .card-head{
