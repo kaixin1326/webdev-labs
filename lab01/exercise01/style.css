@@ -9,3 +9,44 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+.card{
+    box-sizing: border-box;
+    border: dotted 1px #CCC; 
+    width: 30vh;
+    /*  
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px; 
+    /*
+    Alternative syntax:
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    /*
+    Alternative syntax:
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+}
+.card_head{
+    padding:10px;
+}
+.img{
+    padding:0px;
+    max-height: 100%;
+    max-width:100%;
+}
+
+.description{
+    padding:10px;
+}
+
+.button{
+    padding-left:10px;
+    margin-bottom: 20px;
+}
+

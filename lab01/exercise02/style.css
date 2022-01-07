@@ -7,18 +7,65 @@ body {
 }
 
 /*
-Add some style blocks below this line to style the cards.
-Feel free to borrow from Exercise 1.
+Add some style blocks below this line to style the card.
 */
+.wrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*  
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px; 
+    /*
+    Alternative syntax:
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    /*
+    Alternative syntax:
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+}
+.card{
+    display: inline-block;
+}
+.card-container{
+    box-sizing: border-box;
+    border: dotted 1px #CCC; 
+    width: 30vh;
+    /* padding: 10px; */
+    margin: 10px;
+}
+.card-head{
+    padding:10px;
+}
+.img{
+    padding:0px;
+    max-height: 100%;
+    width:100%;
+}
+
+.description{
+    padding:10px;
+}
+
+.button{
+    padding-left:10px;
+    margin-bottom: 20px;
+}
 
 
 /* Tablet Media Query */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
 
 }
-
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
 
-    
 }
